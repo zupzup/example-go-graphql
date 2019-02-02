@@ -100,7 +100,7 @@ func createCommentType() *graphql.Object {
 	return graphql.NewObject(graphql.ObjectConfig{
 		Name: "Comment",
 		Fields: graphql.Fields{
-			"postid": &graphql.Field{
+			"postId": &graphql.Field{
 				Type: graphql.NewNonNull(graphql.Int),
 			},
 			"id": &graphql.Field{
